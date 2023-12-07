@@ -28,6 +28,9 @@ class RedirectIfAuthenticated
                     case 'marketing':
                         return redirect()->route('marketing.dashboard');
                         break;
+                    case 'student':
+                        return redirect()->route('student.dashboard');
+                        break;
                 }
             }
         }

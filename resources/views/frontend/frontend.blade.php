@@ -79,38 +79,23 @@
                             <a href="index.html"><img src="assets/img/logo/logo.png" alt></a>
                         </div>
                         <div class="container">
-                            <div class="menu-wrapper">
+                            <div class="menu-wrapper justify-content-center">
 
                                 <div class="logo logo2 d-block d-lg-none">
-                                    <a href="index.html"><img src="assets/img/logo/logo.png" alt></a>
+                                    <a href="{{ route('home') }}"><img src="assets/img/logo/logo.png" alt></a>
                                 </div>
 
                                 <div class="main-menu d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="courses.html">Courses</a></li>
-                                            <li><a href="instructor.html">Instructors</a></li>
-                                            <li><a href="blog.html">Blog</a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="blog_details.html">Blog Details</a></li>
-                                                    <li><a href="elements.html">Element</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="{{ route('home') }}">Home</a></li>
+                                            <li><a href="{{ route('about') }}">About</a></li>
+                                            <li><a
+                                                    href="{{ route('courses') }}">Courses</a></li>
+                                            <li><a href="{{ route('teachers') }}">Instructors</a></li>
+                                            <li><a href="{{ route('contact') }}">Contact</a></li>
                                         </ul>
                                     </nav>
-                                </div>
-
-                                <div class="header-search d-none d-lg-block">
-                                    <form action="index.html#" class="form-box f-right ">
-                                        <input type="text" name="Search" placeholder="Search Courses">
-                                        <div class="search-icon">
-                                            <i class="fas fa-search special-tag"></i>
-                                        </div>
-                                    </form>
                                 </div>
                             </div>
 

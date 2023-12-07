@@ -45,6 +45,11 @@ class RouteServiceProvider extends ServiceProvider
                 ->prefix('marketing')
                 ->name('marketing.')
                 ->group(base_path('routes/marketing.php'));
+            //Marketer Route
+            Route::middleware('web')
+                ->prefix('student')
+                ->name('student.')
+                ->group(base_path('routes/student.php'));
         });
     }
 }

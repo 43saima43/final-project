@@ -52,4 +52,7 @@ class User extends Authenticatable
     public function marketer(){
         return $this->hasOne(Marketer::class);
     }
+    public function student(){
+        return $this->hasOne(Student::class);
+    }
 }

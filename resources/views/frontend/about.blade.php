@@ -1,55 +1,14 @@
-@extends('frontend.frontend')
+@extends('frontend.frontend');
 @section('frontend_main_content')
 <main>
 
-    <div class="slider-area ">
-        <div class="slider-active">
-
-            <div class="single-slider slider-height d-flex align-items-center">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-6 col-lg-7 col-md-8">
-                            <div class="hero__caption">
-                                <span data-animation="fadeInLeft" data-delay=".2s">Popular Online Courses</span>
-                                <h1 data-animation="fadeInLeft" data-delay=".4s">The New Way To Learn Properly
-                                    in With Us!</h1>
-
-                                <div class="hero__btn">
-                                    <a href="https://preview.colorlib.com/theme/onlineedu/industries.html"
-                                        class="btn hero-btn" data-animation="fadeInLeft" data-delay=".8s">Get
-                                        Started</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-5">
-                            <div class="hero-man d-none d-lg-block f-right" data-animation="jello" data-delay=".4s">
-                                <img src="assets/img/hero/heroman.png" alt>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="single-slider slider-height d-flex align-items-center">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-6 col-lg-7 col-md-8">
-                            <div class="hero__caption">
-                                <span data-animation="fadeInLeft" data-delay=".2s">Popular Online Courses</span>
-                                <h1 data-animation="fadeInLeft" data-delay=".4s">The New Way To Learn Properly
-                                    in With Us!</h1>
-
-                                <div class="hero__btn">
-                                    <a href="https://preview.colorlib.com/theme/onlineedu/industries.html"
-                                        class="btn hero-btn" data-animation="fadeInLeft" data-delay=".8s">Get
-                                        Started</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-5">
-                            <div class="hero-man d-none d-lg-block f-right" data-animation="jello" data-delay=".4s">
-                                <img src="assets/img/hero/heroman.png" alt>
-                            </div>
+    <div class="slider-area">
+        <div class="slider-height2 d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="hero-cap hero-cap2 text-center">
+                            <h2>About Us</h2>
                         </div>
                     </div>
                 </div>
@@ -58,102 +17,27 @@
     </div>
 
 
-    <div class="categories-area section-padding30">
+    <div class="about-details section-padding30">
         <div class="container">
-            <div class="row justify-content-sm-center">
-                <div class="cl-xl-7 col-lg-8 col-md-10">
-
-                    <div class="section-tittle text-center mb-70">
-                        <span>Popular Online Courses</span>
-                        <h2>Lets Brows All Catagori</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="about-details-cap mb-50">
+                        <h4>Our Mission</h4>
+                        <p>Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore
+                            magna aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho
+                            eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod
+                            tempor maecenas accumsan lacus.
+                        </p>
+                        <p> Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus
+                            commodo viverra sebfd dho eiusmod tempor maecenas accumsan.</p>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-cat mb-50">
-                        <div class="cat-icon">
-                            <span class="flaticon-web-design"></span>
-                        </div>
-                        <div class="cat-cap">
-                            <h5><a href="index.html#">Web Design</a></h5>
-                            <p>Sorem hpsum folor sixdsft amhtget, consectetur adipiscing eliht, sed do eiusmod
-                                tempor incidi.</p>
-                            <a href="index.html#" class="read-more1">Read More ></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-cat mb-50">
-                        <div class="cat-icon">
-                            <span class="flaticon-education"></span>
-                        </div>
-                        <div class="cat-cap">
-                            <h5><a href="index.html#">App Development</a></h5>
-                            <p>Sorem hpsum folor sixdsft amhtget, consectetur adipiscing eliht, sed do eiusmod
-                                tempor incidi.</p>
-                            <a href="index.html#" class="read-more1">Read More ></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-cat mb-50">
-                        <div class="cat-icon">
-                            <span class="flaticon-communications"></span>
-                        </div>
-                        <div class="cat-cap">
-                            <h5><a href="index.html#">Video Editing</a></h5>
-                            <p>Sorem hpsum folor sixdsft amhtget, consectetur adipiscing eliht, sed do eiusmod
-                                tempor incidi.</p>
-                            <a href="index.html#" class="read-more1">Read More ></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-cat mb-50">
-                        <div class="cat-icon">
-                            <span class="flaticon-computing"></span>
-                        </div>
-                        <div class="cat-cap">
-                            <h5><a href="index.html#">Digital Marketing</a></h5>
-                            <p>Sorem hpsum folor sixdsft amhtget, consectetur adipiscing eliht, sed do eiusmod
-                                tempor incidi.</p>
-                            <a href="index.html#" class="read-more1">Read More ></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-cat mb-50">
-                        <div class="cat-icon">
-                            <span class="flaticon-tools-and-utensils"></span>
-                        </div>
-                        <div class="cat-cap">
-                            <h5><a href="index.html#">Seo Marketing</a></h5>
-                            <p>Sorem hpsum folor sixdsft amhtget, consectetur adipiscing eliht, sed do eiusmod
-                                tempor incidi.</p>
-                            <a href="index.html#" class="read-more1">Read More ></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-cat mb-50">
-                        <div class="cat-icon">
-                            <span class="flaticon-business"></span>
-                        </div>
-                        <div class="cat-cap">
-                            <h5><a href="index.html#">Content Writing</a></h5>
-                            <p>Sorem hpsum folor sixdsft amhtget, consectetur adipiscing eliht, sed do eiusmod
-                                tempor incidi.</p>
-                            <a href="index.html#" class="read-more1">Read More ></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="browse-btn2 text-center mt-50">
-                        <a href="courses.html" class="btn">Find More Courses</a>
+                    <div class="about-details-cap mb-50">
+                        <h4>Our Vision</h4>
+                        <p>Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore
+                            magna aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho
+                            eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod
+                            tempor maecenas accumsan lacus.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -223,131 +107,6 @@
     </div>
 
 
-    <div class="popular-course section-padding30">
-        <div class="container">
-            <div class="row justify-content-sm-center">
-                <div class="cl-xl-7 col-lg-8 col-md-10">
-
-                    <div class="section-tittle text-center mb-70">
-                        <span>Most Popular Course Of This Week</span>
-                        <h2>Our Popular Course</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                @foreach ($courses as $course)
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="single-course mb-40 ">
-                        <div class="course-img">
-                            <img src="{{ asset('storage/courses/'.$course->thumbnail) }}" alt>
-                        </div>
-                        <div class="course-caption">
-                            <div class="course-cap-top">
-                                <h4><a href="index.html#">{{ $course->title }}</a></h4>
-                            </div>
-                            <div class="course-cap-bottom d-flex justify-content-between">
-                                <ul>
-                                    <li><i class="ti-user"></i> {{ $course->teacher->name }} </li>
-                                </ul>
-                                <span>BDT {{ $course->price }}</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                @endforeach
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="browse-btn2 text-center mt-50">
-                        <a href="{{ route('courses') }}" class="btn">Find More Courses</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="team-area pt-160 pb-160 section-bg" data-background="assets/img/gallery/section_bg02.png">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="cl-xl-7 col-lg-8 col-md-10">
-
-                    <div class="section-tittle section-tittle2 text-center mb-70">
-                        <span>More About Our Faculty</span>
-                        <h2>Our Best Teachers</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                @foreach ($teachers as $teacher)
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img src="{{ asset('storage/teachers/'.$teacher->profile) }}" alt>
-                            <ul class="team-social">
-                                <li><a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a target="_blank" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="team-caption">
-                            <h3><a href="#">{{ $teacher->name }}</a></h3>
-                            <p>{{ $teacher->designation }}</p>
-                        </div>
-                    </div>
-                </div>
-                @endforeach
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="browse-btn2 text-center mt-70">
-                        <a href="{{ route('teachers') }}" class="btn white-btn">View All Faculty</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="about-area section-padding2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12">
-                    <div class="about-caption mb-50">
-
-                        <div class="section-tittle mb-35">
-                            <span>More About Our Company</span>
-                            <h2>Want to know more</h2>
-                        </div>
-                        <p>There arge many variations ohf passages of sorem gpsum ilable, but the majority have
-                            suffered alteration in some form, by ected humour, or randomised words whi.</p>
-                        <ul>
-                            <li><span class="flaticon-business"></span> Creative ideas base</li>
-                            <li><span class="flaticon-communications-1"></span> Assages of sorem gpsum ilable
-                            </li>
-                            <li><span class="flaticon-graduated"></span> Have suffered alteration in so</li>
-                            <li><span class="flaticon-tools-and-utensils"></span> Randomised words whi</li>
-                        </ul>
-                        <a href="about.html" class="btn">More About Us</a>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-
-                    <div class="about-img ">
-                        <div class="about-font-img d-none d-lg-block">
-                            <img src="assets/img/gallery/about2.png" alt>
-                        </div>
-                        <div class="about-back-img ">
-                            <img src="assets/img/gallery/about1.png" alt>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
     <div class="testimonial-area fix pt-180 pb-180 section-bg" data-background="assets/img/gallery/section_bg03.png">
         <div class="container">
             <div class="row justify-content-center">
@@ -408,61 +167,43 @@
     </div>
 
 
-    <div class="home-blog-area section-padding30">
+    <div class="about-area section-padding2">
         <div class="container">
-
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-tittle text-center mb-50">
-                        <span>Our Latest News From Our Blog</span>
-                        <h2>Latest News From Blog</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6">
-                    <div class="home-blog-single mb-30">
-                        <div class="blog-img-cap">
-                            <div class="blog-img">
-                                <img src="assets/img/gallery/home-blog1.png" alt>
+                <div class="col-lg-6 col-md-12">
+                    <div class="about-caption mb-50">
 
-                                <div class="blog-date text-center">
-                                    <span>24</span>
-                                    <p>Now</p>
-                                </div>
-                            </div>
-                            <div class="blog-cap">
-                                <p>| Properties</p>
-                                <h3><a href="blog_details.html">Footprints in Time is perfect House in
-                                        Kurashiki</a></h3>
-                                <a href="blog_details.html" class="more-btn">Read more »</a>
-                            </div>
+                        <div class="section-tittle mb-35">
+                            <span>More About Our Company</span>
+                            <h2>Want to know more</h2>
                         </div>
+                        <p>There arge many variations ohf passages of sorem gpsum ilable, but the majority have
+                            suffered alteration in some form, by ected humour, or randomised words whi.</p>
+                        <ul>
+                            <li><span class="flaticon-business"></span> Creative ideas base</li>
+                            <li><span class="flaticon-communications-1"></span> Assages of sorem gpsum ilable
+                            </li>
+                            <li><span class="flaticon-graduated"></span> Have suffered alteration in so</li>
+                            <li><span class="flaticon-tools-and-utensils"></span> Randomised words whi</li>
+                        </ul>
+                        <a href="about.html" class="btn">More About Us</a>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6">
-                    <div class="home-blog-single mb-30">
-                        <div class="blog-img-cap">
-                            <div class="blog-img">
-                                <img src="assets/img/gallery/home-blog2.png" alt>
+                <div class="col-lg-6 col-md-12">
 
-                                <div class="blog-date text-center">
-                                    <span>24</span>
-                                    <p>Now</p>
-                                </div>
-                            </div>
-                            <div class="blog-cap">
-                                <p>| Properties</p>
-                                <h3><a href="blog_details.html">Footprints in Time is perfect House in
-                                        Kurashiki</a></h3>
-                                <a href="blog_details.html" class="more-btn">Read more »</a>
-                            </div>
+                    <div class="about-img ">
+                        <div class="about-font-img d-none d-lg-block">
+                            <img src="assets/img/gallery/about2.png" alt>
+                        </div>
+                        <div class="about-back-img ">
+                            <img src="assets/img/gallery/about1.png" alt>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 
 </main>
 @endsection
