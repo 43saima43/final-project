@@ -27,7 +27,7 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>Admin Login</title>
+    <title>Student Register</title>
 
     <meta name="description" content="" />
 
@@ -135,6 +135,15 @@
                   <div class="mb-3">
                     <label for="profile" class="form-label">Profile Picture</label>
                     <input type="file" class="form-control" id="profile" name="profile">
+                  </div>
+                  <div class="mb-3">
+                    <label for="course" class="form-label">Select Your Course</label>
+                    <select name="course" id="course" class="form-select">
+                        <option selected disabled>Select Your Course</option>
+                        @foreach ($courses as $course)
+                        <option value="{{ $course->id }}">{{ $course->title }}</option>
+                        @endforeach
+                    </select>
                   </div>
                   <button class="btn btn-primary d-grid w-100">
                     Sign up

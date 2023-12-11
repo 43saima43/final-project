@@ -243,7 +243,7 @@
                         </div>
                         <div class="course-caption">
                             <div class="course-cap-top">
-                                <h4><a href="index.html#">{{ $course->title }}</a></h4>
+                                <h4><a href="{{ route('student.register') }}">{{ $course->title }}</a></h4>
                             </div>
                             <div class="course-cap-bottom d-flex justify-content-between">
                                 <ul>

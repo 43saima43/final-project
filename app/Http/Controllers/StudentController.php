@@ -2,14 +2,21 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Student;
 use App\Models\User;
+use App\Models\Course;
+use App\Models\Student;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 
 class StudentController extends Controller
 {
+    public function studentList(){
+        $students = User::with('course')->whereHas('student', function($query){
+            $query->where('status',true);
+        })->get();
+        return view('admin.student.studentlist', compact('students'));
+    }
     public function login()
     {
         return view('student.auth.student_login');
@@ -17,7 +24,8 @@ class StudentController extends Controller
 
     public function register()
     {
-        return view('student.auth.student_register');
+        $courses = Course::all();
+        return view('student.auth.student_register', compact('courses'));
     }
     public function store(Request $request)
     {

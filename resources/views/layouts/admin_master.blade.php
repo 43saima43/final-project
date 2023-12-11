@@ -178,6 +178,12 @@
                   </li>
                 </ul>
               </li>
+              <li class="menu-item">
+                <a href="{{ route('admin.student.studentList') }}" class="menu-link">
+                  <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                  <div data-i18n="Analytics">Student</div>
+                </a>
+              </li>
           </ul>
         </aside>
         <!-- / Menu -->

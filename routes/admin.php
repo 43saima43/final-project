@@ -4,6 +4,7 @@ use App\Http\Controllers\Backend\Admin\Auth\AuthController;
 use App\Http\Controllers\Backend\Admin\Dashboard\DashboardController;
 use App\Http\Controllers\Backend\Admin\Profile\ProfileController;
 use App\Http\Controllers\CourseController;
+use App\Http\Controllers\StudentController;
 use App\Http\Controllers\TeacherController;
 use Illuminate\Support\Facades\Route;
 
@@ -42,5 +43,9 @@ Route::middleware(['admin:admin'])->group(function () {
         Route::get('/edit/{id}', 'edit')->name('edit');
         Route::put('/update/{id}', 'update')->name('update');
         Route::delete('/delete/{id}', 'destroy')->name('delete');
+    });
+    //Teacher Controller
+    Route::prefix('student')->controller(StudentController::class)->name('student.')->group(function () {
+        Route::get('/list', 'studentList')->name('studentList');
     });
 });

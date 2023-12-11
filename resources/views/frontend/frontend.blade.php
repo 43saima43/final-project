@@ -65,8 +65,8 @@
                                     </div>
                                     <div class="header-info-right">
                                         <ul>
-                                            <li><a href="index.html#"><i class="ti-user"></i>Login</a></li>
-                                            <li><a href="index.html#"><i class="ti-lock"></i>Register</a></li>
+                                            <li><a href="{{ route('student.login') }}"><i class="ti-user"></i>Login</a></li>
+                                            <li><a href="{{ route('student.register') }}"><i class="ti-lock"></i>Register</a></li>
                                         </ul>
                                     </div>
                                 </div>
